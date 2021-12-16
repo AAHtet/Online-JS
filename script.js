@@ -68,5 +68,28 @@ checkWinner(mgmgScore, aungaungScore);
  */
 
 
+// Array
+
+// let fruits = "Apple" // `` , '' -> String Literal , Template literal , String Constructor
+// console.log(fruits)
+
+let fruits = ['Apple', 'Orange', 'Avogado']; // Array Literal , Array Constructor (new)
+
+
+// Array Method
+
+fruits.push("Lemon"); // last index increase
+fruits.pop(); // last index delete
+fruits.unshift("Lemon") // first index increase
+fruits.shift(); // first index delete
+console.log(fruits[fruits.length-1]); // fruits မှာ fruits.legth 1 ကိုနှုတ်ရင် ေနာက်ဆုံး index number ရပါတယ်။
+
+/**
+ *  မိသားစုတစုသည် စားသောက်ဆိုင်တဆိုင်မှာ bill [1200,1000,1500] ရှင်းကြသည့်အခါ Tip တခုကိုတွက်ပြီး percent ပေးကြသည်။ 500 & 4000 ကြားဖြစ်ပါက 15%, 4000 ထက်ကျော်ပါက 20% ဖြင့်ပေးကြပါသည်။ ေနာက်ဆုံးမှာ Final Total ကိုတွက်ချက်ပေးပါ။
+ */
+
+
+
+
 
 
